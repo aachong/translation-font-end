@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # translation
 
 ## Project setup
