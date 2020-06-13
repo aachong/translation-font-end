@@ -16,9 +16,8 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 =======
 # translation-font-end
 在线翻译系统-前端部分
->>>>>>> 17f0594dc31af00aec0707411674c8dfdde269d6
+翻译使用有道翻译接口
+在/js/translation.js里配置
