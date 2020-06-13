@@ -9,8 +9,8 @@ function truncate(q) {
 
 export default function (str, tolan = 'en') {
   var sha256 = require("js-sha256").sha256
-  var appKey = '0c288916717d38d3';
-  var key = 'ZgP4hyjwim2p33GgtO2O1LGW94DfYAz9';//注意：暴露appSecret，有被盗用造成损失的风险
+  var appKey = '';//填入自己的appkey
+  var key = '';//填入自己的密钥
   var salt = (new Date).getTime();
   var curTime = Math.round(new Date().getTime() / 1000);
   var query = str;
